@@ -1,0 +1,111 @@
+.menu{
+    display: flex;
+    width: 100%;
+    background-color: rgb(158, 224, 194);
+}
+/* .menu .logo img{
+   height: 200px;   
+   flex: 1;
+} */
+.menu .nawigacja{
+    display: flex;
+    justify-content: center;
+    flex: 2;
+}
+.menu .nawigacja nav{
+    width: 100%;
+}
+.zdjecie1{
+    background-image: url(https://apartamentyzakopane.pl/blog/wp-content/uploads/2020/10/20120830_AB3_9443.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.zdjecie2{
+    background-image: url(https://szukajacslonca.files.wordpress.com/2017/08/hg-kwiatki.jpg?w=1920&h=768&crop=1);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.zdjecie3{
+    background-image: url(https://ocdn.eu/pulscms-transforms/1/rJOk9kpTURBXy9jMTFkNjlkMTUzMTFjODA0ZTgxOGIyOGEzYTNhNWZiNi5qcGeTlQMAzQICzR6TzRE0kwXNAxTNAbyTCaZkODZlZjIGgaEwAQ/jak-dobrze-znasz-gory-swiata.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.karuzela img{
+    height: 400px;
+}
+.opisy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    background-color: rgb(158, 224, 194);
+  
+}
+.opisy .opistresci {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    max
+}
+h2{
+    text-align: center;
+    margin: 10px;
+}
+.wiecejopcji{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: rgb(158, 224, 194);
+
+}
+.wiecejopcji div { 
+   margin: 100px;
+   display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+}
+.wiecejopcji div img{ 
+    width: 200px;
+    margin: 20px auto;
+ }
+ .wiecejopcji div button{ 
+    
+    float: left;
+ }
+
+.karty{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: rgb(158, 224, 194)
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+}
+.footer .lewa{
+    margin: 30px;
+    flex:1;
+}
+.footer .lewa h4{
+    margin-bottom: 20px;
+}
+.footer .prawa{
+    margin: 30px;
+    flex:1;
+}
+.footer ul{
+    float: right;
+}
+
+
+@media (max-width:760px){
+    h2{
+       color: red;
+    }
+}
